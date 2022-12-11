@@ -770,7 +770,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://telegra.ph/file/8dea393ddf4fc2e339179.gif",
                 caption=f"""
-ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
+ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙɪᴛᴄʜ .....
 
 ━━━━━━━━━━━━━
 ⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [ᴄʟɪᴄᴋ ᴍᴇ](https://t.me/{OWNER_USERNAME})
