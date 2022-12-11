@@ -45,31 +45,31 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
-    API_ID = int(getenv("API_ID", "18634285"))
-    API_HASH = getenv("API_HASH", "f6daa5619fa9d5e10d1f52efa10b39b1")
-    EVENT_LOGS = int(getenv("EVENT_LOGS", ""))
+    API_ID = int(getenv("API_ID", "23496202"))
+    API_HASH = getenv("API_HASH", "a1f882ad44ee621df511e060ef4ec719")
+    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001820696533"))
     DATABASE_URI = getenv(
         "DATABASE_URI",
-        "postgres://ftmhhlpp:vXFSn6lNyTwI_OOTbGSBbdsQI9hABC1f@ella.db.elephantsql.com/ftmhhlpp",
+        "postgres://pkkarkxq:RWXrnL_Ggk5lBfnukigJRNDMn88I_tht@peanut.db.elephantsql.com/pkkarkxq",
     )  # elephantsql.com
-    REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"  # redis.os
+    REDIS_URL = "redis://Draken99:Draken@99@redis-15058.c8.us-east-1-2.ec2.cloud.redislabs.com:15058/Rajni-free-db"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
-        "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://TaktAsahina99:TaktAsahina99@cluster0.iq3cx2j.mongodb.net/?retryWrites=true&w=majority",
     )
-    TOKEN = getenv("TOKEN", None)
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "Abishnoi1M")
-    OWNER_ID = list(map(int, getenv("OWNER_ID", "1452219013").split()))
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "AbishnoiMF")
+    TOKEN = getenv("", "5420854132:AAFkSLuuOxbhVwABEY0vOvxzKqAk4GGsVsc")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "BerlinXbaap")
+    OWNER_ID = list(map(int, getenv("OWNER_ID", "5399623240").split()))
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "Mysticbots_Support")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
     MONGO_DB = "Exon"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_URL = "https://arq.hamker.in"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-    ARQ_API_KEY = "TENRCY-KDKSK-MSMSM-OXQYYO-ARQ"
-    DONATION_LINK = "t.me/AbishnoiMF"
-    HELP_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    START_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    UPDATES_CHANNEL = "Abishnoi_bots"
+    ARQ_API_KEY = "YAQBSI-FZKCWU-LVYFYU-VQURMI-ARQ"
+    DONATION_LINK = "t.me/BerlinXbaap"
+    HELP_IMG = "https://telegra.ph/file/623faaa302103237998c9.jpg"
+    START_IMG = ""
+    UPDATES_CHANNEL = ""
     INFOPIC = False
     GENIUS_API_TOKEN = "28jwoKAkskaSjsnsksAjnwjUJwj"
     SPAMWATCH_API = None
